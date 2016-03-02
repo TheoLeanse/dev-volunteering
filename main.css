@@ -1,0 +1,34 @@
+html {
+  background-color: papayawhip;
+  font-family: helvetica;
+}
+
+.holding__container {
+  max-width: 600px;
+  margin: 100px auto;
+}
+
+.holding__form-section {
+  padding: 40px 0;
+}
+
+.holding__radio-button {
+  margin: 0 20px;
+}
+
+.holding__form {
+  text-align: center;
+  background-color: aqua;
+  margin-top: 50px;
+}
+.holding__button {
+  margin: 0 auto;
+}
+
+.holding__heading {
+  text-align: center;
+}
+
+.holding__email-input {
+
+}
