@@ -1,11 +1,16 @@
+* {
+  //border: red 1px solid;
+  box-sizing: border-box;
+}
+
 html {
-  background-color: papayawhip;
+  background-color: #9F95C5;
   font-family: helvetica;
 }
 
 .holding__container {
   max-width: 600px;
-  margin: 100px auto;
+  margin: 0 auto;
 }
 
 .holding__form-section {
@@ -21,14 +26,30 @@ html {
   background-color: aqua;
   margin-top: 50px;
 }
-.holding__button {
-  margin: 0 auto;
-}
-
-.holding__heading {
-  text-align: center;
+.holding__label {
+  flex: 0 0 auto;
+  background: lightgrey;
+  border: solid 1px lightgrey;
+  border-radius: 2px 0 0 2px;
+  padding: 10px;
 }
 
 .holding__email-input {
+  flex: 1 0 auto;
+  border: 0;
+  padding: 10px;
+  font-size:
+}
 
+.holding__button {
+  flex: 0 0 auto;
+  background: lightgrey;
+  border: solid 1px lightgrey;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+}
+
+.Field {
+  display: flex;
+  width: 100%;
 }
